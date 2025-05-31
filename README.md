@@ -1,17 +1,23 @@
 # MongoDB Fundamentals Assignment
 
-This project demonstrates working with MongoDB using a sample book dataset.
+This project is part of a MongoDB Fundamentals module. It focuses on practicing core MongoDB concepts including:
 
-## Scripts
+- Database and collection creation
+- CRUD operations
+- Filtering, projection, and sorting
+- Aggregation pipelines
+- Indexing
 
-### insert_books.js
-This script connects to the MongoDB database, clears the existing `books` collection if any, and inserts an array of sample book documents. It then fetches and displays all inserted books to confirm the operation.
+## 📁 Project Structure
+├── insert_books.js # Script to seed the MongoDB database with book data
+├── queries.js # MongoDB queries for various operations
+├── README.md # This documentation file
+└── screenshot.png # Screenshot of the MongoDB Compass showing
 
-The script uses the official MongoDB Node.js driver and runs asynchronously.
+## 🛠️ My Setup
 
-## Usage
-
-Run the script with Node.js to populate your database:
-
-```bash
-node insert_books.js
+- **MongoDB**: Installed locally
+- **MongoDB Compass**: Used to view collections and documents
+- **Node.js**: v18 or higher (used to run the insert script)
+- **Database name**: `plp_bookstore`
+- **Collection name**: `books`
